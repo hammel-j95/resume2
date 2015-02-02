@@ -1,0 +1,73 @@
+body{
+  background: url("images/preview.jpg")
+}
+#portrait{
+  background: url("images/portrait.jpg");
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background-repeat: no-repeat;
+  border: 2px solid black;
+  background-size: 200px 200px;
+  align: center;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -100px;
+}
+#name{
+  font-family: garamond;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  float: bottom;
+}
+#description{
+  font-family: garamond;
+  font-size: 20px;
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  float: bottom;
+}
+#social-media{
+  display: inline-block;
+  position: absolute;
+  top: 3%;
+  left: 10%
+}
+#visualize{
+
+}
+.menu{
+  width: 100px;
+  height: 25px;
+  position: absolute;
+  top: 70%;
+  left:47%;
+  border:1px solid #7eb9d0; -webkit-border-radius: 3px; -moz-border-radius: 3px;border-radius: 3px;font-size:12px;font-family:arial, helvetica, sans-serif; padding: 10px 10px 10px 10px; text-decoration:none; display:inline-block;text-shadow: -1px -1px 0 rgba(0,0,0,0.3);font-weight:bold; color: #FFFFFF;
+  background-color: #a7cfdf; background-image: -webkit-gradient(linear, left top, left bottom, from(#a7cfdf), to(#23538a));
+  background-image: -webkit-linear-gradient(top, #a7cfdf, #23538a);
+  background-image: -moz-linear-gradient(top, #a7cfdf, #23538a);
+  background-image: -ms-linear-gradient(top, #a7cfdf, #23538a);
+  background-image: -o-linear-gradient(top, #a7cfdf, #23538a);
+  background-image: linear-gradient(to bottom, #a7cfdf, #23538a);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#a7cfdf, endColorstr=#23538a);
+  font-family: garamond;
+  text-align: center;
+  font-size: 20px;
+  color: black;
+}
+.dropdown{
+  background-color: white;
+  color: black;
+  height: 150px;
+  width: 90px;
+  font-size: 15px;
+  list-style: none;
+  text-align: center;
+  position:fixed;
+  left:47%;
+  padding-left: -10px;
+}
