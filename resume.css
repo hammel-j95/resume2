@@ -29,8 +29,8 @@ body{
   font-size: 20px;
   position: absolute;
   top: 53%;
-  margin-right: 300px;
-  margin-left: 300px;
+  right: 15%;
+  left: 15%;
 }
 #social-media{
   display: inline-block;
